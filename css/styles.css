@@ -68,6 +68,10 @@ body{
     float: left;
 }
 
+.column-42{
+    width: 25%;
+    float: left;
+}
 .column-5{
     width: 20%;
     float: left;
@@ -93,15 +97,17 @@ body{
 
 @media only screen and (max-width: 600px) {
     /* column-2 pasará de tener 50% a 100% */
-    .column-2{
-        width: 100%;
-    }
+    
     /* column-3 pasará de tener 33.33% a 100% */
     .column-3{
-        width: 100%;
+        width: 50%;
     }
     /* column-4 pasará de tener 25% a 50% */
     .column-4{
+        width: 100%;
+    }
+
+    .column-42 {
         width: 50%;
     }
 }
